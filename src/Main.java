@@ -1,3 +1,4 @@
+import java.util.*;
 public class Main {
     public static void main(String[] args) {
         task1();
@@ -56,10 +57,17 @@ public class Main {
             for(int i=8; i>=0 ; i = i-1){
                 System.out.print(carNumbers[i] + " ");
             }
+            System.out.println();
     }
 
     public static void task4(){
+        System.out.println("Задача 4");
+        int [ ] carNumbers = {1347, 1800, 1009, 2900, 2751, 4422, 1223, 5524, 8115};
 
+        for (int i =0 ; i < carNumbers.length; i++){
+            carNumbers[i] = carNumbers[i] + 1;
+            System.out.print(carNumbers[i] + " ");
+        }
 
     }
 
